@@ -1,0 +1,335 @@
+
+@font-face{
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Light.ttf') format('truetype');
+    
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Heebo', sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+a{
+    color:rgba(0,0,0,.8);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+}
+.container{
+    width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+header{
+    background-color: #FBFBFB;
+    height: 750px;
+    overflow: hidden;
+}
+.header__wrapper,
+.top__navigation,
+.header__info,
+.header__info__container{
+    display: flex;
+    position: relative;
+}
+
+
+
+.menu__item--1,
+.menu__item--2,
+.menu__item--3 {
+  position: relative;
+  width: 40px;
+  height: 10px;
+  margin-bottom: 10px;
+  background-color: #ED6B5D;
+  border-radius: 3px;
+}
+
+.menu {
+  transition: -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, -webkit-transform 500ms ease 0s;
+}
+.menu.active {
+  -webkit-transform: translate3d(200px, 0, 0);
+          transform: translate3d(200px, 0, 0);
+}
+.menu.active ~ .aside__menu {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          left: 0;
+          transform: scale(1);
+}
+.menu.active ~ .top__navigation__block2 {
+    display: none;
+  }
+
+.aside__menu {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+  transition: -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, -webkit-transform 500ms ease 0s;
+  width:70%;
+  position: absolute;
+  transform: scale(0);
+  left: -1000px;
+  top: 0;
+  bottom: 0;
+  background-color: #ED6B5D;
+  z-index: 999;
+ 
+
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+}
+.aside__menu a{
+    color:#f5f5f5;
+    
+    text-transform: uppercase;
+    margin: 25px auto;
+}
+
+.button_burger {
+  border: none;
+  background: none;
+  outline: 0;
+  display: none;
+  margin-top: 10px;
+}
+
+
+
+
+/* NAVIGATION */
+.top__navigation{
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    z-index: 5;
+}
+.top__navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.top__navigation__block0,
+.top__navigation__block1,
+.top__navigation__block2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top__navigation__block1 a,
+.top__navigation__block2 a
+{
+    margin-right: 15px;
+}
+
+.phone__navigation{
+    font-weight: bolder;
+}
+.button__requestCall{
+    position: relative;
+    color: #F976A6;
+    border: 1px solid #F976A6;
+    padding: 10px 30px;
+    margin-right: -15px;
+}
+
+/* ----------------------- */
+
+
+/* HEADER INFO */
+.header__info{
+    align-content: center;
+    flex-direction: column;
+    top: 200px;
+}
+.header__info h3{
+    font-weight: 100;
+    color:rgba(0,0,0,.5);
+}
+.header__info a{
+    align-self: flex-start;
+}
+.button__know__more{
+    position: relative;
+    color:#fff;
+    padding: 15px 50px;
+    background-color: #FF4E2E;
+    margin-top: 45px;
+    
+}
+
+.header__info h1{
+    font-size: 5em;
+}
+
+.Dmitry__Photo{
+    position: absolute;
+    right: -230px;
+    bottom: 0;
+}
+
+
+/*-------------------------*/
+
+
+/* WHAT I DO SECTION  AND EXAMPLE MY WORKS */
+
+#what__i__do,
+.what__i__do__block,
+#example__my__works,
+.example__my__works__block,
+.what__i__do__block__container,
+.example__my__works__block__container,
+#adds{
+    display: flex;
+    
+}
+
+
+#what__i__do,
+.what__i__do__block,
+.example__my__works__block,
+#example__my__works
+{
+    
+    flex-direction: column;
+    align-items: center;
+}
+#what__i__do h2,
+#example__my__works h2
+{
+    align-self: center;
+    font-size: 3.5em;
+}
+#what__i__do h2,
+.what__i__do__block__container,
+.button__know__more,
+.example__my__works__block__container,
+#example__my__works h2
+{
+    margin: 60px 0;
+}
+.example__my__works__block__container{
+    margin-top: 0;
+}
+.what__i__do__block__container,
+.example__my__works__block__container
+{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.what__i__do__block,
+.example__my__works__block
+
+{
+    margin: 0 15px;
+}
+.what__i__do__block p,
+.example__my__works__block,
+.example__my__works__block p
+{
+    margin-top: 30px;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+}
+/*--------------------*/
+
+/*  ADDS */
+#adds{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+#adds h2,
+#adds p{
+    color:#fff;
+}
+#adds h2{
+    margin: 60px 0 30px 0;
+    font-size: 2.5em;
+}
+#adds p{
+    margin-bottom: 60px;
+}
+/*--------------------*/
+
+
+/* FOOTER */
+footer,
+.footer__navigation,
+.contacts,
+.social,
+.social_icons
+{
+    display: flex;
+}
+footer{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 0;
+    
+}
+.footer__navigation,
+.contacts,
+.social
+{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__navigation a{
+  color:rgba(0,0,0,.5);
+  padding: 5px 0;
+  align-self: flex-start;
+}
+.contacts a{
+    font-size: 1.3em;
+    font-weight: 600;
+    align-self: flex-start;
+    
+}
+.contacts a img{
+    margin-right: 10px;
+}
+
+.social_icons{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.under__footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: #31293c;
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}

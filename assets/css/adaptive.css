@@ -1,0 +1,225 @@
+@media screen and (min-width:960px) and (max-width:1170px){
+    .container{
+        width: 960px;
+    }
+    .header__info h1{
+        font-size: 3.5em;
+    }
+    .what__i__do__block__container{
+        justify-content: space-around;
+    }
+    .what__i__do__block{
+        margin-top: 60px;
+        width: 40%;
+    }
+    .example__my__works__block__container{
+        flex-wrap: wrap;
+    }
+   
+}
+@media screen and (min-width:720px) and (max-width:959px){
+    .container{
+        width: 720px;
+    }
+    .header__info h1{
+        font-size: 3em;
+    }
+    .what__i__do__block{
+        margin-top: 60px;
+        width: 100%;
+    }
+    .example__my__works__block__container,
+    .what__i__do__block__container{
+        flex-wrap: wrap;
+    }
+    .example__my__works__block__container{
+        justify-content: space-around;
+    }
+    #adds h2{
+        font-size: 2em;
+    }
+}
+@media screen and (min-width:540px) and (max-width:719px){
+    .container{
+        width: 540px;
+    }
+    header{
+        height: 600px;
+    }
+.button_burger{
+    display: block;
+}
+    .top__navigation{
+        justify-content: space-around;
+        height: 70px;
+    }
+    .aside__menu{
+        width: 80%;
+    }
+    .aside__menu a{
+        font-size: .8em;
+    }
+    .top__navigation__block1{
+        display: none;
+    }
+    .header__info h1{
+        font-size: 2.3em;
+    }
+    .Dmitry__Photo{
+        width: 500px;
+        right: -150px;
+    }
+    .header__info{
+       
+        width: 65%;
+        top:170px;
+        left: 10px;
+    }
+    .header__info h3{
+        margin-top: 15px;
+    }
+    .header__info a{
+        margin-top: 30px;
+    }
+    .what__i__do__block{
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .example__my__works__block__container,
+    .what__i__do__block__container{
+        flex-wrap: wrap;
+    }
+    .example__my__works__block__container{
+        justify-content: space-around;
+    }
+    #adds h2{
+        font-size: 1.5em;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts,
+    .social,
+    .contacts a,
+    .social a{
+        margin: 15px 0;
+    }
+    .footer__navigation{
+        font-size: 1.3em;
+    }
+   
+}
+@media screen and (min-width:320px) and (max-width:539px){
+    .container{
+        width: 320px;
+    }
+    header{
+        height: 500px;
+    }
+    .button_burger{
+        display: block;
+    }
+    .menu__item--1,
+.menu__item--2,
+.menu__item--3{
+    width: 30px;
+    height: 10px;
+}
+    .aside__menu{
+        width: 85%;
+    }
+    .aside__menu a{
+        color:#f5f5f5;
+        font-size: .7em;
+        text-transform: uppercase;
+        margin: 25px auto;
+    }
+    .menu.active {
+        -webkit-transform: translate3d(300px, 0, 0);
+                transform: translate3d(300px, 0, 0);
+      }
+    .top__navigation{
+        justify-content: space-between;
+        height: 70px;
+    }
+    .top__navigation__block1{
+        display: none;
+    }
+    .phone__navigation{
+        font-size: .7em;
+    }
+    .button__requestCall{
+        padding: 4px 6px;
+    }
+    .header__info h1{
+        font-size: 1.8em;
+    }
+    .button__know__more{
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+    .Dmitry__Photo{
+        width: 400px;
+        right: -160px;
+    }
+    .header__info{
+        width:50%;
+        top:70px;
+        left: 10px;
+    }
+    .header__info h3{
+        margin-top: 15px;
+    }
+    .header__info a{
+        margin-top: 30px;
+    }
+    .what__i__do__block{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #what__i__do h2,
+    .what__i__do__block__container,
+    .button__know__more,
+    .example__my__works__block__container,
+    #example__my__works h2
+    {
+        margin: 30px 0;
+    }
+    #what__i__do h2,
+#example__my__works h2
+{
+    align-self: center;
+    font-size: 1.5em;
+}
+    .example__my__works__block__container,
+    .what__i__do__block__container{
+        flex-wrap: wrap;
+    }
+    .example__my__works__block img{
+        width: 250px;
+    }
+    .example__my__works__block__container{
+        justify-content: space-around;
+    }
+    #adds h2{
+        font-size: 1.3em;
+    }
+    #adds p{
+        font-size: .9em;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts,
+    .social,
+    .contacts a,
+    .social a{
+        margin: 15px 0;
+    }
+    .footer__navigation{
+        font-size: 1em;
+    }
+}

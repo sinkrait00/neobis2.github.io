@@ -1,0 +1,51 @@
+.top__navigation__block1 a:hover,
+.footer__navigation a:hover,
+.contacts a:hover{
+    color:#F976A6;
+    border-bottom: 2px solid #F976A6;
+    transition: ease-in .3s;
+}
+.top__navigation__block1 a,
+.footer__navigation a,
+.contacts a,
+.social_icons a,
+.example__my__works__block a img
+{
+    transition: ease .3s;
+    }
+
+    .button__requestCall:hover{
+        background-color: #F976A6;
+        color: #fff;
+     
+        box-shadow: 0px 5px 0px 0px rgba(215,102,143,1);
+-webkit-box-shadow: 0px 5px 0px 0x rgba(215,102,143,1);
+-moz-box-shadow: 0px 5px 0px 0px rgb(215,102,143);
+    }
+    .button__requestCall:active{
+        
+        
+        top: 5px;
+        box-shadow: 0px 1px 0px 0px;
+    }
+
+    .button__know__more:hover{
+        box-shadow: 0px 5px 0px 0px rgba(215,65,39,1);
+        -webkit-box-shadow: 0px 5px 0px 0x rgba(215,65,39,1);
+        -moz-box-shadow: 0px 5px 0px 0px rgb(215,65,39);
+    }
+    .button__know__more:active{
+        top: 5px;
+        box-shadow: 0px 1px 0px 0px;
+    }
+
+    .social_icons a:hover,
+    .example__my__works__block a img:hover{
+        transform: scale(1.25); 
+        transition: ease .3s;
+    }
+
+   
+  
+        
+
